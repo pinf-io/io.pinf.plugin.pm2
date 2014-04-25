@@ -1,0 +1,12 @@
+{
+  "name": "io.pinf.plugin.pm2",
+  "version": "0.0.0",
+  "private": true,
+  "bin": {
+  	"pm2": "node_modules/.bin/pm2",
+  	"pm2-id-for-name": "pm2-id-for-name.js"
+  },
+  "dependencies": {
+    "pm2": "~0.7.8"
+  }
+}
